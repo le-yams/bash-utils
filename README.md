@@ -1,2 +1,2 @@
-# cf-bash-utils
+# bash-utils
 
