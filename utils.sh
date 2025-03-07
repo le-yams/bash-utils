@@ -5,7 +5,7 @@ then
   echo -e "\\e[1;91mERROR\\e[0m: \\e[1;34mSCRIPT_LIBS_DIR\\e[0m variable must be defined"
 fi
 
-# shellcheck source=lib/colors.sh
+# shellcheck source=colors.sh
 source "${SCRIPT_LIBS_DIR}/colors.sh"
 
 function timestamp() {
@@ -44,7 +44,7 @@ function fail() {
 }
 
 function verbose_echo() {
-  if [ ! -z ${VERBOSE} ]; then
+  if [ -n "${VERBOSE}" ]; then
     echo "$*"
   fi
 }

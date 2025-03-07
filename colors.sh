@@ -17,6 +17,7 @@ FOREGROUND_CYAN=36
 function color() {
   color=$1
   shift
+  # shellcheck disable=SC2028
   echo "\\e[1;${color}m$*\\e[0m"
 }
 
