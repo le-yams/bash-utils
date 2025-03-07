@@ -21,49 +21,49 @@ function color() {
 }
 
 function red() {
-  color ${FOREGROUND_RED} $*
+  color ${FOREGROUND_RED} "$@"
 }
 
 function green() {
-  color ${FOREGROUND_GREEN} $*
+  color ${FOREGROUND_GREEN} "$@"
 }
 
 function yellow() {
-  color ${FOREGROUND_YELLOW} $*
+  color ${FOREGROUND_YELLOW} "$@"
 }
 
 function blue() {
-  color ${FOREGROUND_BLUE} $*
+  color ${FOREGROUND_BLUE} "$@"
 }
 
 function magenta() {
-  color ${FOREGROUND_MAGENTA} $*
+  color ${FOREGROUND_MAGENTA} "$@"
 }
 
 function cyan() {
-  color ${FOREGROUND_CYAN} $*
+  color ${FOREGROUND_CYAN} "$@"
 }
 
 function bright_red() {
-  color ${FOREGROUND_BRIGHT_RED} $*
+  color ${FOREGROUND_BRIGHT_RED} "$@"
 }
 
 function bright_green() {
-  color ${FOREGROUND_BRIGHT_GREEN} $*
+  color ${FOREGROUND_BRIGHT_GREEN} "$@"
 }
 
 function bright_yellow() {
-  color ${FOREGROUND_BRIGHT_YELLOW} $*
+  color ${FOREGROUND_BRIGHT_YELLOW} "$@"
 }
 
 function bright_blue() {
-  color ${FOREGROUND_BRIGHT_BLUE} $*
+  color ${FOREGROUND_BRIGHT_BLUE} "$@"
 }
 
 function bright_magenta() {
-  color ${FOREGROUND_BRIGHT_MAGENTA} $*
+  color ${FOREGROUND_BRIGHT_MAGENTA} "$@"
 }
 
 function bright_cyan() {
-  color ${FOREGROUND_BRIGHT_CYAN} $*
+  color ${FOREGROUND_BRIGHT_CYAN} "$@"
 }
